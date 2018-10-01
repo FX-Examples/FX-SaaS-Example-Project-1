@@ -6,7 +6,7 @@ authors:
 - "FX Bot"
 type: "SUITE"
 init: []
-endpoint: "/api/v1/test-suites/{{@Random}}/test-suite/search?pageSize=pzNyxP"
+endpoint: "/api/v1/test-suites/{{@Random}}/test-suite/search?pageSize=yLGTF9"
 method: "GET"
 auth: "Default"
 headers:
@@ -17,7 +17,7 @@ assertions:
 - "@StatusCode != 401"
 - "@StatusCode != 404"
 cleanup: []
-severity: "Critical"
+severity: "Major"
 category: "Negative"
 tags:
 - "V1"
